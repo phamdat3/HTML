@@ -178,8 +178,10 @@
  - Căn lề văn bản. 
      - Để canh lề, chúng ta sử dụng thuộc tính text-align với giá trị là left,center, right hoặc justify. 
      `<span style="text-align: center">Canh giữa văn bản</span>`
+
 #VI. Tạo danh sách (List).
-##1. Kiểu sắp xếp (Ordered List): Là kiểu hiển thị một danh sách mà các mục con của nó được sắp xếp theo thứ tự bằng số hoặc chữ cái.
+##1. Kiểu sắp xếp (Ordered List): 
+ -Là kiểu hiển thị một danh sách mà các mục con của nó được sắp xếp theo thứ tự bằng số hoặc chữ cái.
 ```
  <ol>
      <li>level 1</li>
@@ -200,7 +202,8 @@
 
 <img src="https://acuong.com/wp-content/uploads/2017/01/1-FILEminimizer-4.jpg">
 
-##2. Kiểu không sắp xếp (Unordered List): Là kiểu hiển thị danh sách mà các mục con của nó sẽ không được sắp xếp theo thứ tự mà chỉ được đánh dấu bằng một ký tự đặc trưng.
+##2. Kiểu không sắp xếp (Unordered List): 
+ -Là kiểu hiển thị danh sách mà các mục con của nó sẽ không được sắp xếp theo thứ tự mà chỉ được đánh dấu bằng một ký tự đặc trưng.
 ```
  <ul>
      <li>Mục con 1</li>
@@ -218,7 +221,8 @@
   <li>Mục con 5</li>
 </ul> 
 
-##3. Kiểu mô tả (Description List): Là kiểu hiển thị danh sách mà các mục con của nó sẽ không được đánh dấu thứ tự, nhưng sẽ có kèm theo một đoạn miêu tả.
+##3. Kiểu mô tả (Description List):
+- Là kiểu hiển thị danh sách mà các mục con của nó sẽ không được đánh dấu thứ tự, nhưng sẽ có kèm theo một đoạn miêu tả.
 ```
  <dl>
       <dt>Mục 1</dt>
