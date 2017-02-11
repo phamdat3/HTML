@@ -54,6 +54,7 @@
     - **PHP**: Ngôn ngữ lập trình để xử lý và trao đổi dữ liệu giữa máy chủ đến trình duyệt (ví dụ như các bài viết sẽ được lưu trong máy chủ).  
     - **MySQL**: Hệ quản trị cơ sở dữ liệu truy vấn có cấu trúc (SQL – ví dụ như các bài viết sẽ được lưu lại với dạng dữ liệu SQL).  
  **- Như vậy HTML như là một cái khung sườn của website.** 
+
 #II. Soạn một đoạn HTML đầu tiên
  Soạn thảo văn bản HTML ở đây nghĩa là chúng ta sẽ tập viết một văn bản được định dạng bằng các thẻ HTML chứ không phải là tạo ra một tập tin HTML hoàn chỉnh. 
 ##Hãy sử dụng Sublime Text để soạn thảo. 
@@ -68,6 +69,7 @@
      ``
     - Giải thích thêm: 
          - Thẻ `<h1>` (viết tắt của chữ Heading level 1) là cặp thẻ để xác định một tiêu đề trong văn bản. Tiêu đề sẽ được in đậm, có size chữ lớn hơn và được ngăn cách với các đoạn văn bản khác (có margin). Ngoài thẻ `<h1>` thì còn có các thẻ **heading** với thứ bậc thấp hơn như `<h2>`, `<h3>`,`<h4>`, `<h5>`, `<h6>`. Thẻ `<p>`(viết tắt của chữ Paragraph) là cặp thẻ xác định một đoạn văn bản. Mỗi đoạn văn bản đặt trong thẻ `<p>` sẽ được xem như là một dòng, mỗi dòng sẽ có những khoảng cách ngăn với nhau.  
+
 #III. Cấu trúc một tài liệu web bằng HTML. 
 ##1. Một tài liệu hay tập tin HTML để được gọi là một tài liệu web thì sẽ được bao gồm bốn yếu tố chính đó là:  
   - Có thẻ khai báo loại tập tin/tài liệu.  
@@ -89,7 +91,8 @@
 ##4. Thẻ đóng và mở phần thông tin website. 
   - Phần khai báo thông tin của website sẽ được đặt vào bên trong cặp thẻ gọi là `<head> </head>`. Nội dung bên trong thẻ này là các thẻ chuyên cho khai báo thông tin website (meta), tên website (title), khai báo CSS (style), khai báo các đoạn Javascript (script) và một số thông tin khác. Thường là các thông tin được khai báo trong đây sẽ không hiển thị trực tiếp thành siêu văn bản trên web nhưng nó sẽ có nhiệm vụ chứa các thông tin quan trọng về website. 
 ##5. Có thẻ đóng và mở phần nội dung website 
-  - Đây là cặp thẻ mà bạn sẽ tiến hành viết nội dung vào, đó là cặp thẻ <body> </body>. Cặp thẻ này là để trình duyệt xác định đây là phần thân của website, nó sẽ chứa toàn bộ các nội dung siêu văn bản hoặc media mà bạn muốn nó hiển thị lên trang web của bạn. Phần này chúng ta sẽ làm việc nhiều hơn ở các bài sau. 
+  - Đây là cặp thẻ mà bạn sẽ tiến hành viết nội dung vào, đó là cặp thẻ <body> </body>. Cặp thẻ này là để trình duyệt xác định đây là phần thân của website, nó sẽ chứa toàn bộ các nội dung siêu văn bản hoặc media mà bạn muốn nó hiển thị lên trang web của bạn. Phần này chúng ta sẽ làm việc nhiều hơn ở các bài sau.  
+
 #IV. Các thẻ khai báo thông tin web cơ bản
 ##1. Khai báo tên tài liệu với cặp thẻ `<title>` 
  - Thẻ `<title> </title>` có tác dụng khai báo tên tài liệu web của bạn đang soạn. Ứng dụng thực tiễn của thẻ này là giúp trình duyệt hiển thị tên tài liệu khi mở lên và các cỗ máy tìm kiếm như Google cũng hiển thị nội dung trong cặp thẻ này để lấy tên tài liệu. 
@@ -112,6 +115,7 @@
      - Ngoài ra còn một số giá trị khác như: 
           - **application-name**: Tên ứng dụng đại diện của tài liệu web. 
           - **generator**: Khai báo tên ứng dụng tạo ra tài liệu. 
+          
 #V.Các thẻ định dạng chữ viết và văn bản.
 ##1. Tiêu đề và đoạn văn bản 
  - Tiêu đề. 
