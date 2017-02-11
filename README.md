@@ -62,20 +62,24 @@
  - Soạn thảo văn bản HTML đầu tiên 
      - Cặp thẻ `<h1> </h1>` để thiết lập tiêu đề cho văn bản, và đặt các đoạn văn bản nhỏ vào cặp thẻ `<p> </p>`
      ``
-     <h1>Tiêu đề 1</h1> 
+     <h1>Tiêu đề 1</h1>  
+
      <p> 
+
       Đoạn văn bản 
+
      </p> 
      ``
-    - Giải thích thêm: 
-         - Thẻ `<h1>` (viết tắt của chữ Heading level 1) là cặp thẻ để xác định một tiêu đề trong văn bản. Tiêu đề sẽ được in đậm, có size chữ lớn hơn và được ngăn cách với các đoạn văn bản khác (có margin). Ngoài thẻ `<h1>` thì còn có các thẻ **heading** với thứ bậc thấp hơn như `<h2>`, `<h3>`,`<h4>`, `<h5>`, `<h6>`. Thẻ `<p>`(viết tắt của chữ Paragraph) là cặp thẻ xác định một đoạn văn bản. Mỗi đoạn văn bản đặt trong thẻ `<p>` sẽ được xem như là một dòng, mỗi dòng sẽ có những khoảng cách ngăn với nhau.  
+ - Giải thích thêm: 
+     - Thẻ `<h1>` (viết tắt của chữ Heading level 1) là cặp thẻ để xác định một tiêu đề trong văn bản. Tiêu đề sẽ được in đậm, có size chữ lớn hơn và được ngăn cách với các đoạn văn bản khác (có margin). Ngoài thẻ `<h1>` thì còn có các thẻ **heading** với thứ bậc thấp hơn như `<h2>`, `<h3>`,`<h4>`, `<h5>`, `<h6>`. Thẻ `<p>`(viết tắt của chữ Paragraph) là cặp thẻ xác định một đoạn văn bản. Mỗi đoạn văn bản đặt trong thẻ `<p>` sẽ được xem như là một dòng, mỗi dòng sẽ có những khoảng cách ngăn với nhau.  
 
 #III. Cấu trúc một tài liệu web bằng HTML. 
 ##1. Một tài liệu hay tập tin HTML để được gọi là một tài liệu web thì sẽ được bao gồm bốn yếu tố chính đó là:  
   - Có thẻ khai báo loại tập tin/tài liệu.  
   - Có thẻ đóng và mở tài liệu HTML.  
   - Có thẻ đóng và mở phần thông tin website.  
-  - Có thẻ đóng và mở phần nội dung website.  
+  - Có thẻ đóng và mở phần nội dung website. 
+
 ##2. Thẻ khai báo loại tập tin  
   - Ngay tại đoạn đầu tiên của tài liệu, chúng ta phải có một thẻ khai báo loại tập tin cho nó như thế này, cụ thể là ta sẽ khai báo rằng đây là tập tin HTML. 
      `<!DOCTYPE html>` 
@@ -84,24 +88,29 @@
    dàng sử dụng thêm HTML5 nếu thích. 
   - Có một điều thú vị là thẻ `<!DOCTYPE>` không phải là một thẻ của HTML, mà nó chỉ là một thẻ khai báo thông tin trên tài liệu để trình duyệt hiểu phiên bản  
    HTML mà bạn sử dụng trên website mà thôi. 
+
 ##3. Thẻ đóng mở tài liệu HTMl 
   - Kế tiếp, ở tầng tiếp theo sẽ là thẻ `<html> </html>` có nhiệm vụ khai báo cho trình duyệt biết rằng những nội dung bên trong cặp thẻ này là HTML. Tuy nhiên, bên
     trong thẻ này mình có thêm một thuộc tính tên là lang với giá trị là vi `(<html lang="vi">)`. Thuộc tính này nghĩa là chúng ta khai báo cho trình duyệt biết mã ngôn ngữ mà ta sử dụng trên website, mã **vi** nghĩa là *Vietnamese – tiếng Việt*. 
   - Bạn nên nhớ một điều là thẻ `<html> </html>` phải bao bọc toàn bộ nội dung website, không bao gồm thẻ `<!DOCTYPE>`. 
+
 ##4. Thẻ đóng và mở phần thông tin website. 
   - Phần khai báo thông tin của website sẽ được đặt vào bên trong cặp thẻ gọi là `<head> </head>`. Nội dung bên trong thẻ này là các thẻ chuyên cho khai báo thông tin website (meta), tên website (title), khai báo CSS (style), khai báo các đoạn Javascript (script) và một số thông tin khác. Thường là các thông tin được khai báo trong đây sẽ không hiển thị trực tiếp thành siêu văn bản trên web nhưng nó sẽ có nhiệm vụ chứa các thông tin quan trọng về website. 
+
 ##5. Có thẻ đóng và mở phần nội dung website 
   - Đây là cặp thẻ mà bạn sẽ tiến hành viết nội dung vào, đó là cặp thẻ <body> </body>. Cặp thẻ này là để trình duyệt xác định đây là phần thân của website, nó sẽ chứa toàn bộ các nội dung siêu văn bản hoặc media mà bạn muốn nó hiển thị lên trang web của bạn. Phần này chúng ta sẽ làm việc nhiều hơn ở các bài sau.  
 
 #IV. Các thẻ khai báo thông tin web cơ bản
 ##1. Khai báo tên tài liệu với cặp thẻ `<title>` 
  - Thẻ `<title> </title>` có tác dụng khai báo tên tài liệu web của bạn đang soạn. Ứng dụng thực tiễn của thẻ này là giúp trình duyệt hiển thị tên tài liệu khi mở lên và các cỗ máy tìm kiếm như Google cũng hiển thị nội dung trong cặp thẻ này để lấy tên tài liệu. 
+
 ##2. Khai báo dữ liệu vĩ mô với thẻ <meta>
  - Thẻ `<meta>` là một thẻ đặc biệt vì nó không có thẻ đóng như các thẻ khác mà sẽ có dấu gạch chéo như `/` ở đằng trước ký tự > cuối cùng. Thẻ này có mục đích khai báo các dữ liệu vĩ mô trong tài liệu web HTML của bạn như mô tả, từ khóa, tên tác giả, bảng mã ký tự sử dụng,… 
  - Thẻ meta luôn được khai báo kèm theo ít nhất là một thuộc tính và mỗi thuộc tính phải luôn có giá trị. 
    Ví dụ: 
     `<meta charset="utf-8" />` 
  - Trong đó, **charset** là tên thuộc tính và **utf-8** là giá trị của thuộc tính **charset**. 
+
 ##3. Thuộc tính charset 
  - Thuộc tính **charset** trong thẻ `<meta>` có nhiệm vụ khai báo cho trình duyệt biết bảng mã ký tự siêu văn bản bên trong tài liệu là gì. Và hiện nay hầu hết chúng ta đều sử dụng bảng mã **UTF-8** cho tất cả ngôn ngữ bao gồm các ngôn ngữ tiếng latin, chữ Hán – Nôm và các ngôn ngữ đọc từ phải sang trái (Right to Left – RTL) như tiếng Ả-Rập chẳng hạn.
  - Thuộc tính **name**  
@@ -115,19 +124,24 @@
      - Ngoài ra còn một số giá trị khác như: 
           - **application-name**: Tên ứng dụng đại diện của tài liệu web. 
           - **generator**: Khai báo tên ứng dụng tạo ra tài liệu. 
-          
+
 #V.Các thẻ định dạng chữ viết và văn bản.
 ##1. Tiêu đề và đoạn văn bản 
  - Tiêu đề. 
      ```
      <h1>Hello Wolrd 1</h1>
+
      <h2>Hello Wolrd 2</h2>
+
      ...
+
      ...
+
      <h6>Hello Wolrd 6</h6>
      ``` 
 <img src="http://st1.streampow.net/tu-hoc-html-css-javascript/bai-hoc/html-the-co-ban.jpg"> 
  - Còn đoạn văn bản thì nó sẽ được khai báo bằng cặp thẻ `<p> </p>`. Các văn bản nằm trong cặp thẻ này sẽ được hiểu là một đoạn văn bản, mỗi đoạn văn bản sẽ được xuống dòng và cách nhau với tỷ lệ nhất định. 
+
 ##2. Các thẻ định dạng chữ viết 
  - `<strong>`: In đậm chữ viết. 
  - `<i>`: In nghiêng chứ viết. 
@@ -138,6 +152,7 @@
  - `<hr>`: Thước kẻ ngang trên tài liệu. 
  - `<mark>`: Tô sáng chữ viết. 
 ##3. Thẻ trích dẫn 
+
  - Thẻ trích dẫn được quy định là `<quote>` và tên tác giả trích dẫn được quy định là `<cite>`.  
  - Lưu ý rằng thẻ `<cite>` thường chỉ nên dùng đặt trong thẻ `<quote>` thôi chứ dùng tùy tiện nó lại mất hay. Và mặc định thì các trình duyệt sẽ tự quy định nội dung nằm trong thẻ `<cite>` sẽ được in nghiêng, còn thẻ `<quote>` thì không có gì cả nhưng sau này bạn làm tới phần CSS rồi thì có thể tự thêm tí “phong cách” cho thẻ `quote` đẹp hơn. 
  - Thẻ định dạng sẵn. 
