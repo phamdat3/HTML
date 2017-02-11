@@ -47,34 +47,34 @@
     <img src="http://hoclamwebonline.com/media/1026/html-css-javascript.png?width=555&height=343"> 
 
  - Một website bao gồm:  
-    -**HTML**: Xây dựng cấu trúc và định dạng các siêu văn bản.  
-    -**CSS**: Định dạng các siêu văn bản dạng thô tạo ra từ HTML thành một bố cục
+    - **HTML**: Xây dựng cấu trúc và định dạng các siêu văn bản.  
+    - **CSS**: Định dạng các siêu văn bản dạng thô tạo ra từ HTML thành một bố cục
     website, có màu sắc, ảnh nền,….  
-    -**Javascript**: Tạo ra các sự kiện tương tác với hành vi của người dùng (ví dụ nhấp vào ảnh trên nó sẽ có hiệu ứng phóng to).  
-    -**PHP**: Ngôn ngữ lập trình để xử lý và trao đổi dữ liệu giữa máy chủ đến trình duyệt (ví dụ như các bài viết sẽ được lưu trong máy chủ).  
-    -**MySQL**: Hệ quản trị cơ sở dữ liệu truy vấn có cấu trúc (SQL – ví dụ như các bài viết sẽ được lưu lại với dạng dữ liệu SQL).  
+    - **Javascript**: Tạo ra các sự kiện tương tác với hành vi của người dùng (ví dụ nhấp vào ảnh trên nó sẽ có hiệu ứng phóng to).  
+    - **PHP**: Ngôn ngữ lập trình để xử lý và trao đổi dữ liệu giữa máy chủ đến trình duyệt (ví dụ như các bài viết sẽ được lưu trong máy chủ).  
+    - **MySQL**: Hệ quản trị cơ sở dữ liệu truy vấn có cấu trúc (SQL – ví dụ như các bài viết sẽ được lưu lại với dạng dữ liệu SQL).  
  **- Như vậy HTML như là một cái khung sườn của website.** 
 #II. Soạn một đoạn HTML đầu tiên
  Soạn thảo văn bản HTML ở đây nghĩa là chúng ta sẽ tập viết một văn bản được định dạng bằng các thẻ HTML chứ không phải là tạo ra một tập tin HTML hoàn chỉnh. 
 ##Hãy sử dụng Sublime Text để soạn thảo. 
  - Sublime Text là một chương trình soạn thảo văn bản (Text Editor) miễn phí mà thường là phục vụ cho việc soạn thảo các loại văn bản đơn giản cho đến các đoạn code phức tạp 
  - Soạn thảo văn bản HTML đầu tiên 
-    - Cặp thẻ `<h1> </h1>` để thiết lập tiêu đề cho văn bản, và đặt các đoạn văn bản nhỏ vào cặp thẻ `<p> </p>`
-    ``
-    <h1>Tiêu đề 1</h1>
-    <p>
-      Đoạn văn bản
-    </p>
-    ``
+     - Cặp thẻ `<h1> </h1>` để thiết lập tiêu đề cho văn bản, và đặt các đoạn văn bản nhỏ vào cặp thẻ `<p> </p>`
+     ``
+     <h1>Tiêu đề 1</h1> 
+     <p> 
+      Đoạn văn bản 
+     </p> 
+     ``
     - Giải thích thêm: 
-      Thẻ <h1> (viết tắt của chữ Heading level 1) là cặp thẻ để xác định một tiêu đề trong văn bản. Tiêu đề sẽ được in đậm, có size chữ lớn hơn và được ngăn cách với các đoạn văn bản khác (có margin). Ngoài thẻ <h1> thì còn có các thẻ heading với thứ bậc thấp hơn như <h2>, <h3>,<h4>, <h5>, <h6>. Thẻ <p> (viết tắt của chữ Paragraph) là cặp thẻ xác định một đoạn văn bản. Mỗi đoạn văn bản đặt trong thẻ <p> sẽ được xem như là một dòng, mỗi dòng sẽ có những khoảng cách ngăn với nhau.
-#III. Cấu trúc một tài liệu web bằng HTML.
-##1. Một tài liệu hay tập tin HTML để được gọi là một tài liệu web thì sẽ được bao gồm bốn yếu tố chính đó là: 
-  - Có thẻ khai báo loại tập tin/tài liệu. 
-  - Có thẻ đóng và mở tài liệu HTML. 
-  - Có thẻ đóng và mở phần thông tin website. 
-  - Có thẻ đóng và mở phần nội dung website. 
-##2. Thẻ khai báo loại tập tin 
+         - Thẻ `<h1>` (viết tắt của chữ Heading level 1) là cặp thẻ để xác định một tiêu đề trong văn bản. Tiêu đề sẽ được in đậm, có size chữ lớn hơn và được ngăn cách với các đoạn văn bản khác (có margin). Ngoài thẻ `<h1>` thì còn có các thẻ **heading** với thứ bậc thấp hơn như `<h2>`, `<h3>`,`<h4>`, `<h5>`, `<h6>`. Thẻ `<p>`(viết tắt của chữ Paragraph) là cặp thẻ xác định một đoạn văn bản. Mỗi đoạn văn bản đặt trong thẻ `<p>` sẽ được xem như là một dòng, mỗi dòng sẽ có những khoảng cách ngăn với nhau.  
+#III. Cấu trúc một tài liệu web bằng HTML. 
+##1. Một tài liệu hay tập tin HTML để được gọi là một tài liệu web thì sẽ được bao gồm bốn yếu tố chính đó là:  
+  - Có thẻ khai báo loại tập tin/tài liệu.  
+  - Có thẻ đóng và mở tài liệu HTML.  
+  - Có thẻ đóng và mở phần thông tin website.  
+  - Có thẻ đóng và mở phần nội dung website.  
+##2. Thẻ khai báo loại tập tin  
   - Ngay tại đoạn đầu tiên của tài liệu, chúng ta phải có một thẻ khai báo loại tập tin cho nó như thế này, cụ thể là ta sẽ khai báo rằng đây là tập tin HTML. 
      `<!DOCTYPE html>` 
   - Với thẻ `<!DOCTYPE>` ở trên, ta có thêm một tham số đó là html. Tham số html này nghĩa là chúng ta khai báo với trình duyệt rằng đây là tài liệu HTML5 (HTML 
