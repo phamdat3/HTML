@@ -60,16 +60,16 @@
 ##Hãy sử dụng Sublime Text để soạn thảo. 
  - Sublime Text là một chương trình soạn thảo văn bản (Text Editor) miễn phí mà thường là phục vụ cho việc soạn thảo các loại văn bản đơn giản cho đến các đoạn code phức tạp 
  - Soạn thảo văn bản HTML đầu tiên 
-     - Cặp thẻ `<h1> </h1>` để thiết lập tiêu đề cho văn bản, và đặt các đoạn văn bản nhỏ vào cặp thẻ `<p> </p>`
-     ``
-     <h1>Tiêu đề 1</h1>  
+     - Cặp thẻ `<h1> </h1>` để thiết lập tiêu đề cho văn bản, và đặt các đoạn văn bản nhỏ vào cặp thẻ `<p> </p>` 
+      ```
+      <h1>Tiêu đề 1</h1>  
 
-     <p> 
+      <p> 
 
-      Đoạn văn bản 
+       Đoạn văn bản 
 
-     </p> 
-     ``
+      </p> 
+      ```
  - Giải thích thêm: 
      - Thẻ `<h1>` (viết tắt của chữ Heading level 1) là cặp thẻ để xác định một tiêu đề trong văn bản. Tiêu đề sẽ được in đậm, có size chữ lớn hơn và được ngăn cách với các đoạn văn bản khác (có margin). Ngoài thẻ `<h1>` thì còn có các thẻ **heading** với thứ bậc thấp hơn như `<h2>`, `<h3>`,`<h4>`, `<h5>`, `<h6>`. Thẻ `<p>`(viết tắt của chữ Paragraph) là cặp thẻ xác định một đoạn văn bản. Mỗi đoạn văn bản đặt trong thẻ `<p>` sẽ được xem như là một dòng, mỗi dòng sẽ có những khoảng cách ngăn với nhau.  
 
@@ -178,4 +178,77 @@
  - Căn lề văn bản. 
      - Để canh lề, chúng ta sử dụng thuộc tính text-align với giá trị là left,center, right hoặc justify. 
      `<span style="text-align: center">Canh giữa văn bản</span>`
+#VI. Tạo danh sách (List).
+##1. Kiểu sắp xếp (Ordered List): Là kiểu hiển thị một danh sách mà các mục con của nó được sắp xếp theo thứ tự bằng số hoặc chữ cái.
+```
+ <ol>
+     <li>level 1</li>
+     <li>level 2</li>
+     <li>level 3</li>
+     <li>level 4</li>
+ </ol>
 
+ <p>Một kiểu hiển thị khác của Ordered List</p>
+
+ <ol type="I">
+     <li>level 1</li>
+     <li>level 2</li>
+     <li>level 3</li>
+     <li>level 4</li>
+ </ol>
+```
+
+<img src="https://acuong.com/wp-content/uploads/2017/01/1-FILEminimizer-4.jpg">
+
+##2. Kiểu không sắp xếp (Unordered List): Là kiểu hiển thị danh sách mà các mục con của nó sẽ không được sắp xếp theo thứ tự mà chỉ được đánh dấu bằng một ký tự đặc trưng.
+```
+ <ul>
+     <li>Mục con 1</li>
+     <li>Mục con 2</li>
+     <li>Mục con 3</li>
+     <li>Mục con 4</li>
+     <li>Mục con 5</li>
+ </ul>
+```
+<ul>
+  <li>Mục con 1</li>
+  <li>Mục con 2</li>
+  <li>Mục con 3</li>
+  <li>Mục con 4</li>
+  <li>Mục con 5</li>
+</ul> 
+
+##3. Kiểu mô tả (Description List): Là kiểu hiển thị danh sách mà các mục con của nó sẽ không được đánh dấu thứ tự, nhưng sẽ có kèm theo một đoạn miêu tả.
+```
+ <dl>
+      <dt>Mục 1</dt>
+      <dd>Mục 1.1</dd>
+ </dl>
+```
+<dl>
+  <dt>Mục 1</dt>
+  <dd>Mục 1.1</dd>
+</dl>
+#VII. Tạo liên kết và neo. 
+##1. Tạo liên kết
+ - Để tạo ra các đường liên kết trong HTML ta sẽ sử dụng cặp thẻ `<a> </a>` chứa các tham số như sau:
+ ```
+  <p><a href="https://www.facebook.com/" title="Facebook" target="_blank"></a>Facebook</p>
+ ```
+ [Facebook](https://www.facebook.com/)
+
+ - Ý nghĩa các thuộc tính:
+     - **href**: Địa chỉ của tài liệu muốn liên kết đến, đây có thể là một đường dẫn thư mục hoặc địa chỉ website. Nếu bạn muốn truy cập một tài liệu trên cùng một cấp thư mục thì chỉ cần ghi tên-tập-tin.định dạng.
+     - **title**: Tiêu đề của liên kết, tiêu đề sẽ hiển thị như một thông tin thêm khi rê chuột vào liên kết.
+     - **target**: Xác định nơi mở tài liệu, nó có các giá trị như `_blank` (mở tài liệu trên cửa sổ mới), `_self` (mở tài liệu trên cửa sổ hiện tại, nếu bạn không khai báo thuộc tính target thì nó sẽ sử dụng giá trị này làm mặc định),  `_top` (mở tài liệu trong nội dung trang hiện tại), `_parent` (mở tài liệu trên khung trình duyệt mẹ của nó).
+
+##2. Liên kết neo
+ - Một liên kết neo sẽ có hai phần:
+     - Khu vực được neo, được khai báo bằng thẻ bất kỳ với thuộc tính id 
+     ví dụ: `<p id="11"> </p>`
+     - Liên kết neo, được khai báo bằng thẻ <a> nhưng có thuộc tính là href nhưng giá trị là có dấu # và tên id của khu vực cần truy cập đến 
+     ví dụ: `<a href="#11">xem nội dung</a>`.
+
+---
+#Hoàn thành.
+---
