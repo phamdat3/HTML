@@ -46,11 +46,12 @@
 
     <img src="http://hoclamwebonline.com/media/1026/html-css-javascript.png?width=555&height=343"> 
 
-  -Một website bao gồm: 
-    -**HTML**: Xây dựng cấu trúc và định dạng các siêu văn bản. 
-    -**CSS**: Định dạng các siêu văn bản dạng thô tạo ra từ HTML thành một bố cục website, có màu sắc, ảnh nền,…. 
-    -**Javascript**: Tạo ra các sự kiện tương tác với hành vi của người dùng (ví dụ nhấp vào ảnh trên nó sẽ có hiệu ứng phóng to). 
-    -**PHP**: Ngôn ngữ lập trình để xử lý và trao đổi dữ liệu giữa máy chủ đến trình duyệt (ví dụ như các bài viết sẽ được lưu trong máy chủ). 
-    -**MySQL**: Hệ quản trị cơ sở dữ liệu truy vấn có cấu trúc (SQL – ví dụ như các bài viết sẽ được lưu lại với dạng dữ liệu SQL). 
- *- Như vậy HTML như là một cái khung sườn của website.* 
+ - Một website bao gồm:  
+    -**HTML**: Xây dựng cấu trúc và định dạng các siêu văn bản.  
+    -**CSS**: Định dạng các siêu văn bản dạng thô tạo ra từ HTML thành một bố cục
+    website, có màu sắc, ảnh nền,….  
+    -**Javascript**: Tạo ra các sự kiện tương tác với hành vi của người dùng (ví dụ nhấp vào ảnh trên nó sẽ có hiệu ứng phóng to).  
+    -**PHP**: Ngôn ngữ lập trình để xử lý và trao đổi dữ liệu giữa máy chủ đến trình duyệt (ví dụ như các bài viết sẽ được lưu trong máy chủ).  
+    -**MySQL**: Hệ quản trị cơ sở dữ liệu truy vấn có cấu trúc (SQL – ví dụ như các bài viết sẽ được lưu lại với dạng dữ liệu SQL).  
+ *- Như vậy HTML như là một cái khung sườn của website.*  
 
