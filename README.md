@@ -73,10 +73,10 @@
      `<p>Đây là một đoạn văn bản trong HTML.</p>` 
    - Ngoài ra, trong các thẻ còn có các thuộc tính, thuộc tính sẽ đặt bên trong thẻ mở đầu, mỗi thuộc tính sẽ có giá trị được đặt trong dấu ngoặc kép và cách nhau bởi dấu bằng (=) với tên thuộc tính. 
 
-      `<form action="http://thachpham.com"> </form>` 
+      `<form action="https://facebook.com"> </form>` 
    - **Một thẻ có thể sử dụng nhiều thuộc tính chứ không phải chỉ một thuộc tính.** 
- - Dùng chương trình gì để tạo tập tin HTML? 
-    HTML là một tập tin siêu văn bản nên bạn có thể dùng các chương trình soạn thảo văn bản không có chức năng định dạng văn bản để tạo ra một tập tin HTML. 
+ - Dùng chương trình gì để tạo tập tin HTML?   
+     - HTML là một tập tin siêu văn bản nên bạn có thể dùng các chương trình soạn thảo văn bản không có chức năng định dạng văn bản để tạo ra một tập tin HTML. 
  - HTML đóng vai trò gì trong website? 
 
     <img src="http://hoclamwebonline.com/media/1026/html-css-javascript.png?width=555&height=343"> 
@@ -102,7 +102,12 @@
 
       <p> 
 
-       Đoạn văn bản 
+       Đoạn văn bản 1
+
+      </p> 
+      <p> 
+
+       Đoạn văn bản 2  
 
       </p> 
       ```
@@ -121,6 +126,7 @@
 
 <a name="3.2"></a>
 ##2. Thẻ khai báo loại tập tin  
+  `**<!DOCTYPE html>**`  
   - Ngay tại đoạn đầu tiên của tài liệu, chúng ta phải có một thẻ khai báo loại tập tin cho nó như thế này, cụ thể là ta sẽ khai báo rằng đây là tập tin HTML. 
      `<!DOCTYPE html>` 
   - Với thẻ `<!DOCTYPE>` ở trên, ta có thêm một tham số đó là html. Tham số html này nghĩa là chúng ta khai báo với trình duyệt rằng đây là tài liệu HTML5 (HTML 
@@ -131,6 +137,7 @@
 
 <a name="3.3"></a>
 ##3. Thẻ đóng mở tài liệu HTMl 
+  **`<html> </html>`**
   - Kế tiếp, ở tầng tiếp theo sẽ là thẻ `<html> </html>` có nhiệm vụ khai báo cho trình duyệt biết rằng những nội dung bên trong cặp thẻ này là HTML. Tuy nhiên, bên
     trong thẻ này mình có thêm một thuộc tính tên là lang với giá trị là vi `(<html lang="vi">)`. Thuộc tính này nghĩa là chúng ta khai báo cho trình duyệt biết mã ngôn ngữ mà ta sử dụng trên website, mã **vi** nghĩa là *Vietnamese – tiếng Việt*. 
   - Bạn nên nhớ một điều là thẻ `<html> </html>` phải bao bọc toàn bộ nội dung website, không bao gồm thẻ `<!DOCTYPE>`. 
