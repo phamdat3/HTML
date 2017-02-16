@@ -111,6 +111,8 @@
 
       </p> 
       ```
+      <img src="1">
+
  - Giải thích thêm: 
      - Thẻ `<h1>` (viết tắt của chữ Heading level 1) là cặp thẻ để xác định một tiêu đề trong văn bản. Tiêu đề sẽ được in đậm, có size chữ lớn hơn và được ngăn cách với các đoạn văn bản khác (có margin). Ngoài thẻ `<h1>` thì còn có các thẻ **heading** với thứ bậc thấp hơn như `<h2>`, `<h3>`,`<h4>`, `<h5>`, `<h6>`. Thẻ `<p>`(viết tắt của chữ Paragraph) là cặp thẻ xác định một đoạn văn bản. Mỗi đoạn văn bản đặt trong thẻ `<p>` sẽ được xem như là một dòng, mỗi dòng sẽ có những khoảng cách ngăn với nhau.  
 
@@ -126,7 +128,7 @@
 
 <a name="3.2"></a>
 ##2. Thẻ khai báo loại tập tin  
-  `**<!DOCTYPE html>**`  
+  **`<!DOCTYPE html>`**  
   - Ngay tại đoạn đầu tiên của tài liệu, chúng ta phải có một thẻ khai báo loại tập tin cho nó như thế này, cụ thể là ta sẽ khai báo rằng đây là tập tin HTML. 
      `<!DOCTYPE html>` 
   - Với thẻ `<!DOCTYPE>` ở trên, ta có thêm một tham số đó là html. Tham số html này nghĩa là chúng ta khai báo với trình duyệt rằng đây là tài liệu HTML5 (HTML 
@@ -144,11 +146,13 @@
 
 <a name="3.4"></a>
 ##4. Thẻ đóng và mở phần thông tin website. 
+  **`<head> </head>`**  
   - Phần khai báo thông tin của website sẽ được đặt vào bên trong cặp thẻ gọi là `<head> </head>`. Nội dung bên trong thẻ này là các thẻ chuyên cho khai báo thông tin website (meta), tên website (title), khai báo CSS (style), khai báo các đoạn Javascript (script) và một số thông tin khác. Thường là các thông tin được khai báo trong đây sẽ không hiển thị trực tiếp thành siêu văn bản trên web nhưng nó sẽ có nhiệm vụ chứa các thông tin quan trọng về website. 
 
 <a name="3.5"></a>
 ##5. Có thẻ đóng và mở phần nội dung website 
-  - Đây là cặp thẻ mà bạn sẽ tiến hành viết nội dung vào, đó là cặp thẻ <body> </body>. Cặp thẻ này là để trình duyệt xác định đây là phần thân của website, nó sẽ chứa toàn bộ các nội dung siêu văn bản hoặc media mà bạn muốn nó hiển thị lên trang web của bạn. Phần này chúng ta sẽ làm việc nhiều hơn ở các bài sau.  
+**`<body> </body>`**
+  - Đây là cặp thẻ mà bạn sẽ tiến hành viết nội dung vào, đó là cặp thẻ `<body> </body>`. Cặp thẻ này là để trình duyệt xác định đây là phần thân của website, nó sẽ chứa toàn bộ các nội dung siêu văn bản hoặc media mà bạn muốn nó hiển thị lên trang web của bạn.  
 
 <a name="4"></a>
 #IV. Các thẻ khai báo thông tin web cơ bản
@@ -159,7 +163,7 @@
 
 <a name="4.2"></a>
 ##2. Khai báo dữ liệu vĩ mô với thẻ <meta>
- - Thẻ `<meta>` là một thẻ đặc biệt vì nó không có thẻ đóng như các thẻ khác mà sẽ có dấu gạch chéo như `/` ở đằng trước ký tự > cuối cùng. Thẻ này có mục đích khai báo các dữ liệu vĩ mô trong tài liệu web HTML của bạn như mô tả, từ khóa, tên tác giả, bảng mã ký tự sử dụng,… 
+ - Thẻ `<meta>` là một thẻ đặc biệt vì nó không có thẻ đóng như các thẻ khác mà sẽ có dấu gạch chéo như **`/`** ở đằng trước ký tự **`>`** cuối cùng. Thẻ này có mục đích khai báo các dữ liệu vĩ mô trong tài liệu web HTML của bạn như mô tả, từ khóa, tên tác giả, bảng mã ký tự sử dụng,… 
  - Thẻ meta luôn được khai báo kèm theo ít nhất là một thuộc tính và mỗi thuộc tính phải luôn có giá trị. 
    Ví dụ: 
     `<meta charset="utf-8" />` 
@@ -202,38 +206,58 @@
 
 <a name="5.2"></a>
 ##2. Các thẻ định dạng chữ viết 
- - `<strong>`: In đậm chữ viết. 
- - `<i>`: In nghiêng chứ viết. 
- - `<u>`: Gạch chân chữ viết. 
- - `<strike>`: Gạch ngang chữ viết. 
- - `<em>`: Nhấn mạnh câu. 
- - `<code>`: Định dạng cho một đoạn mã nào đó. 
- - `<hr>`: Thước kẻ ngang trên tài liệu. 
- - `<mark>`: Tô sáng chữ viết. 
-
+```
+ - <strong>In đậm chữ viết</strong>  
+ - <i>In nghiêng chứ viết.</i>  
+ - <u>Gạch chân chữ viết.</u>  
+ - <strike>Gạch ngang chữ viết.</strike>  
+ - <em>Nhấn mạnh câu.</em>  
+ - <code>Định dạng cho một đoạn mã nào đó.</code>   
+ - <hr>Thước kẻ ngang trên tài liệu.</hr>  
+ - <mark>Tô sáng chữ viết.</mark>  
+ ```
+<img src="2">  
 <a name="5.3"></a>
 ##3. Thẻ trích dẫn 
  - Thẻ trích dẫn được quy định là `<quote>` và tên tác giả trích dẫn được quy định là `<cite>`.  
- - Lưu ý rằng thẻ `<cite>` thường chỉ nên dùng đặt trong thẻ `<quote>` thôi chứ dùng tùy tiện nó lại mất hay. Và mặc định thì các trình duyệt sẽ tự quy định nội dung nằm trong thẻ `<cite>` sẽ được in nghiêng, còn thẻ `<quote>` thì không có gì cả nhưng sau này bạn làm tới phần CSS rồi thì có thể tự thêm tí “phong cách” cho thẻ `quote` đẹp hơn. 
+ - Lưu ý rằng thẻ `<cite>` thường chỉ nên dùng đặt trong thẻ `<quote>` thôi chứ dùng tùy tiện nó lại mất hay. Và mặc định thì các trình duyệt sẽ tự quy định nội dung nằm trong thẻ `<cite>` sẽ được in nghiêng.
+
+  <img src="3">
+
  - Thẻ định dạng sẵn. 
      - Trong HTML hiện tại nó có một thẻ được gọi là thẻ định dạng sẵn (preformatted), thẻ này sẽ được viết là `<pre> </pre>`. Sở dĩ nó được gọi là thẻ định dạng sẵn vì mặc định trình duyệt đã tự động định dạng cho các nội dung nằm bên trong thẻ đó như kích thước chữ, khoảng cách, kiểu chữ.
      - Thẻ `<pre> </pre>` này thường được dùng để đăng một câu đối thoại hoặc in một đoạn mã để cho dễ phân biệt với các văn bản thông thường.
+
+     <img src="4">
+
  - Thuộc tính **style** để định dạng chữ viết.
      - Màu chữ. 
          Để thiết lập màu chữ, bạn có thể sử dụng thuộc tính **color**. Giá trị của nó là tên màu trong tiếng Anh hoặc mã màu HEX. 
          `<span style="color: red">chữ màu đỏ</span>` 
+
+         <img src="5">
+
      - Màu nền. 
          - Màu nền có cách thiết lập giống hệt màu chữ, tức là bạn có thể dùng giá trị là tên màu trong tiếng Anh hoặc mã màu HEX. Tên thuộc tính của màu nền là 
          **background-color**. 
          `<span style="color: white; background-color: red">Chữ có nền màu đỏ và màu chữ là trắng</span>` 
+
+         <img src="6">
+
      - Kích thước chữ. 
          - Kích thước chữ bạn có thể sử dụng thuộc tính font-size và giá trị là số kèm đơn vị. Bạn có thể sử dụng đơn vị px, %, pt hoặc em tùy thích, đơn giản nhất là dùng px. 
-         `<span style="font-size: 32px">Chữ có kích thước 32px</span>`
+         `<span style="font-size: 40px">Chữ có kích thước 40px</span>`
+
+         <img src="7">
+
      - Font chữ. 
          - Nếu bạn có nhu cầu sử dụng font chữ khác so với font chữ mặc định thì hãy dùng thuộc tính font-family với giá trị là tên font chữ có trên máy tính. Một số tên font chữ phổ biến nhất là Arial, Helvetica, Time New Roman, Verdana.  
          `<span style="font-family: Arial">Font chữ Arial</span>` 
          - Ngoài ra bạn có thể thêm font chữ dự phòng bằng cách khai báo nhiều tên font chữ khác nhau được ngăn cách bởi dấu phẩy. 
-           `<span style="font-family: Helvetica, Arial">Font chữ Arial</span>` 
+           `<span style="font-family: Helvetica, Arial">Font chữ Arial</span>`
+
+           <img src="8">
+
          - Có nghĩa là nếu máy người đọc không có font chữ Helvetica thì nó sẽ sử dụng font chữ Arial. 
  - Căn lề văn bản. 
      - Để canh lề, chúng ta sử dụng thuộc tính text-align với giá trị là left,center, right hoặc justify. 
@@ -319,7 +343,7 @@
 ##2. Liên kết neo
  - Một liên kết neo sẽ có hai phần:
      - Khu vực được neo, được khai báo bằng thẻ bất kỳ với thuộc tính id 
-     ví dụ: `<p id="11"> </p>`
+     ví dụ: `<p id="11">Nọi dung cần xem</p>`
      - Liên kết neo, được khai báo bằng thẻ <a> nhưng có thuộc tính là href nhưng giá trị là có dấu # và tên id của khu vực cần truy cập đến 
      ví dụ: `<a href="#11">xem nội dung</a>`.
 
