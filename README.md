@@ -6,54 +6,54 @@
 
 ## Mục lục 
 
-<a href="#I">1. HTML</a>
+[1. HTML](#1)
   <ul>
-    <li><a href="#I.1">1.1 HTML là gì?</a></li>
-    <li><a href="#I.2">1.2 HTML được xử lý ra sao?</a></li>
+    <li>[1.1 HTML là gì?](#1.1)</li>
+    <li>[1.2 HTML được xử lý ra sao?](#1.2)</li>
   </ul>
-<a href="#II">2. Soạn một đoạn HTML đầu tiên</a>
-<a href="#III">3. Cấu trúc một tài liệu web bằng HTML</a>
+[2. Soạn một đoạn HTML đầu tiên](#2)   
+[3. Cấu trúc một tài liệu web bằng HTML](#3)  
  <ul>
- 	<li><a href="#III.1">3.1 Một tài liệu hay tập tin HTML để được gọi là một tài liệu web thì sẽ được bao gồm bốn yếu tố chính đó là:</a></li>
- 	<li><a href="#III.2">3.2 Thẻ khai báo loại tập tin</a></li>
- 	<li><a href="#III.3">3.3 Thẻ đóng mở tài liệu HTML</a></li>
- 	<li><a href="#III.4">3.4 Thẻ đóng và mở phần thông tin website</a></li>
- 	<li><a href="#III.5">3.5 Có thẻ đóng và mở phần nội dung website</a></li>
+ 	<li>[3.1 Một tài liệu hay tập tin HTML để được gọi là một tài liệu web thì sẽ được bao gồm bốn yếu tố chính đó là:](#3.1)</li>  
+ 	<li>[3.2 Thẻ khai báo loại tập tin](#3.2)</li>  
+ 	<li>[3.3 Thẻ đóng mở tài liệu HTML](3.3)</li>  
+ 	<li>[3.4 Thẻ đóng và mở phần thông tin website](#3.4)</li>  
+ 	<li>[3.5 Có thẻ đóng và mở phần nội dung website](#3.5)</li>  
  </ul>
- <a href="#IV">4. Các thẻ khai báo thông tin web cơ bản</a>
+ [4. Các thẻ khai báo thông tin web cơ bản](#4)  
   <ul>
-  	<li><a href="#IV.1">4.1 Khai báo tên tài liệu với cặp thẻ `<title>`</a></li>
-  	<li><a href="#IV.2">4.2 Khai báo dữ liệu vĩ mô với thẻ</a></li>
-  	<li><a href="#IV.3">4.3 Thuộc tính charset</a></li>
+  	<li>[4.1 Khai báo tên tài liệu với cặp thẻ `<title>`](#4.1)</li>  
+  	<li>[4.2 Khai báo dữ liệu vĩ mô với thẻ](#4.2)</li>  
+  	<li>[4.3 Thuộc tính charset](#4.3)</li>  
   </ul>
-  <a href="#V">5. Các thẻ định dạng chữ viết và văn bản.</a>
+ [5. Các thẻ định dạng chữ viết và văn bản.](#5)
   <ul>
-  	<li><a href="#V.1">5.1 Tiêu đề và đoạn văn bản</a></li>
-  	<li><a href="#V.2">5.2 Các thẻ định dạng chữ viết</a></li>
-  	<li><a href="#V.3">5.3 Thẻ trích dẫn</a></li>
+  	<li>[5.1 Tiêu đề và đoạn văn bản](#5.1)</li>  
+  	<li>[5.2 Các thẻ định dạng chữ viết](#5.2)</li>  
+  	<li>[5.3 Thẻ trích dẫn](#5.3)</li>  
   </ul>
-  <a href="#VI">6. Tạo danh sách (List)</a>
+[6. Tạo danh sách (List)](#6)
   <ul>
-  	<li><a href="#VI.1">6.1 Kiểu sắp xếp (Ordered List)</a></li>
-  	<li><a href="#VI.2">6.2 Kiểu không sắp xếp (Unordered List)</a></li>
-  	<li><a href="#VI.3">6.3 Kiểu mô tả (Description List)</a></li>
+  	<li>[6.1 Kiểu sắp xếp (Ordered List)](#6.1)</li>
+  	<li>[6.2 Kiểu không sắp xếp (Unordered List)](#6.2)</li>
+  	<li>[6.3 Kiểu mô tả (Description List)](#6.3)</li>
   </ul>
-  <a href="#VII">7. Tạo liên kết và neo</a>
+[7. Tạo liên kết và neo](#7)
   <ul>
-  	<li><a href="#VII.1">7.1 Tạo liên kết</a></li>
-  	<li><a href="#VII.2">7.2 Liên kết neo</a></li>
+  	<li>[7.1 Tạo liên kết](#7.1)</li>
+  	<li>[7.2 Liên kết neo](#7.2)</li>
   </ul>
 ---
 # Nội dung
 ---
-<id="I">
+<a name="1"></a>
 #I. HTML là gì và vì sao nó quan trọng. 
-<id="I.1">
+<a name="1.1"></a>
 ##1. HTML là gì? 
  - HTML là chữ viết tắt của cụm từ HyperText Markup Language(dịch là Ngôn ngữ đánh dấu siêu văn bản) được sử dụng để tạo một trang web, trên một website có thể sẽ chứa nhiều trang và mỗi trang được quy ra là một tài liệu HTML. 
  - Một tập tin HTML sẽ bao gồm các phần tử HTML và được lưu lại dưới đuôi mở rộng là .html hoặc .htm. 
 
-<id="I.2">
+<a name="1.2"></a>
 ##2.HTML được xử lý ra sao? 
  - Khi một tập tin HTML được hình thành, việc xử lý nó sẽ do trình duyệt web đảm nhận. Trình duyệt sẽ đóng vai trò đọc hiểu nội dung HTML từ các thẻ bên trong và sẽ chuyển sang dạng văn bản đã được đánh dấu để đọc, nghe hoặc hiểu (do các bot máy tính hiểu). 
 
@@ -90,7 +90,7 @@
     - **MySQL**: Hệ quản trị cơ sở dữ liệu truy vấn có cấu trúc (SQL – ví dụ như các bài viết sẽ được lưu lại với dạng dữ liệu SQL).  
  **- Như vậy HTML như là một cái khung sườn của website.** 
 
-<id="II">
+<a name="2"></a>
 #II. Soạn một đoạn HTML đầu tiên
  Soạn thảo văn bản HTML ở đây nghĩa là chúng ta sẽ tập viết một văn bản được định dạng bằng các thẻ HTML chứ không phải là tạo ra một tập tin HTML hoàn chỉnh. 
 ##Hãy sử dụng Sublime Text để soạn thảo. 
@@ -109,17 +109,17 @@
  - Giải thích thêm: 
      - Thẻ `<h1>` (viết tắt của chữ Heading level 1) là cặp thẻ để xác định một tiêu đề trong văn bản. Tiêu đề sẽ được in đậm, có size chữ lớn hơn và được ngăn cách với các đoạn văn bản khác (có margin). Ngoài thẻ `<h1>` thì còn có các thẻ **heading** với thứ bậc thấp hơn như `<h2>`, `<h3>`,`<h4>`, `<h5>`, `<h6>`. Thẻ `<p>`(viết tắt của chữ Paragraph) là cặp thẻ xác định một đoạn văn bản. Mỗi đoạn văn bản đặt trong thẻ `<p>` sẽ được xem như là một dòng, mỗi dòng sẽ có những khoảng cách ngăn với nhau.  
 
-<id="III">
+<a name="3"></a>
 #III. Cấu trúc một tài liệu web bằng HTML.
 
-<id="III.1">
+<a name="3.1"></a>
 ##1. Một tài liệu hay tập tin HTML để được gọi là một tài liệu web thì sẽ được bao gồm bốn yếu tố chính đó là:  
   - Có thẻ khai báo loại tập tin/tài liệu.  
   - Có thẻ đóng và mở tài liệu HTML.  
   - Có thẻ đóng và mở phần thông tin website.  
   - Có thẻ đóng và mở phần nội dung website. 
 
-<id="III.2">
+<a name="3.2"></a>
 ##2. Thẻ khai báo loại tập tin  
   - Ngay tại đoạn đầu tiên của tài liệu, chúng ta phải có một thẻ khai báo loại tập tin cho nó như thế này, cụ thể là ta sẽ khai báo rằng đây là tập tin HTML. 
      `<!DOCTYPE html>` 
@@ -129,28 +129,28 @@
   - Có một điều thú vị là thẻ `<!DOCTYPE>` không phải là một thẻ của HTML, mà nó chỉ là một thẻ khai báo thông tin trên tài liệu để trình duyệt hiểu phiên bản  
    HTML mà bạn sử dụng trên website mà thôi. 
 
-<id="III.3">
+<a name="3.3"></a>
 ##3. Thẻ đóng mở tài liệu HTMl 
   - Kế tiếp, ở tầng tiếp theo sẽ là thẻ `<html> </html>` có nhiệm vụ khai báo cho trình duyệt biết rằng những nội dung bên trong cặp thẻ này là HTML. Tuy nhiên, bên
     trong thẻ này mình có thêm một thuộc tính tên là lang với giá trị là vi `(<html lang="vi">)`. Thuộc tính này nghĩa là chúng ta khai báo cho trình duyệt biết mã ngôn ngữ mà ta sử dụng trên website, mã **vi** nghĩa là *Vietnamese – tiếng Việt*. 
   - Bạn nên nhớ một điều là thẻ `<html> </html>` phải bao bọc toàn bộ nội dung website, không bao gồm thẻ `<!DOCTYPE>`. 
 
-<id="III.4">
+<a name="3.4"></a>
 ##4. Thẻ đóng và mở phần thông tin website. 
   - Phần khai báo thông tin của website sẽ được đặt vào bên trong cặp thẻ gọi là `<head> </head>`. Nội dung bên trong thẻ này là các thẻ chuyên cho khai báo thông tin website (meta), tên website (title), khai báo CSS (style), khai báo các đoạn Javascript (script) và một số thông tin khác. Thường là các thông tin được khai báo trong đây sẽ không hiển thị trực tiếp thành siêu văn bản trên web nhưng nó sẽ có nhiệm vụ chứa các thông tin quan trọng về website. 
 
-<id="III.5">
+<a name="3.5"></a>
 ##5. Có thẻ đóng và mở phần nội dung website 
   - Đây là cặp thẻ mà bạn sẽ tiến hành viết nội dung vào, đó là cặp thẻ <body> </body>. Cặp thẻ này là để trình duyệt xác định đây là phần thân của website, nó sẽ chứa toàn bộ các nội dung siêu văn bản hoặc media mà bạn muốn nó hiển thị lên trang web của bạn. Phần này chúng ta sẽ làm việc nhiều hơn ở các bài sau.  
 
-<id="IV">
+<a name="4"></a>
 #IV. Các thẻ khai báo thông tin web cơ bản
 
-<id="IV.1">
+<a name="4.1"></a>
 ##1. Khai báo tên tài liệu với cặp thẻ `<title>` 
  - Thẻ `<title> </title>` có tác dụng khai báo tên tài liệu web của bạn đang soạn. Ứng dụng thực tiễn của thẻ này là giúp trình duyệt hiển thị tên tài liệu khi mở lên và các cỗ máy tìm kiếm như Google cũng hiển thị nội dung trong cặp thẻ này để lấy tên tài liệu. 
 
-<id="IV.2">
+<a name="4.2"></a>
 ##2. Khai báo dữ liệu vĩ mô với thẻ <meta>
  - Thẻ `<meta>` là một thẻ đặc biệt vì nó không có thẻ đóng như các thẻ khác mà sẽ có dấu gạch chéo như `/` ở đằng trước ký tự > cuối cùng. Thẻ này có mục đích khai báo các dữ liệu vĩ mô trong tài liệu web HTML của bạn như mô tả, từ khóa, tên tác giả, bảng mã ký tự sử dụng,… 
  - Thẻ meta luôn được khai báo kèm theo ít nhất là một thuộc tính và mỗi thuộc tính phải luôn có giá trị. 
@@ -158,7 +158,7 @@
     `<meta charset="utf-8" />` 
  - Trong đó, **charset** là tên thuộc tính và **utf-8** là giá trị của thuộc tính **charset**. 
 
-<id="IV.3">
+<a name="4.3"></a>
 ##3. Thuộc tính charset 
  - Thuộc tính **charset** trong thẻ `<meta>` có nhiệm vụ khai báo cho trình duyệt biết bảng mã ký tự siêu văn bản bên trong tài liệu là gì. Và hiện nay hầu hết chúng ta đều sử dụng bảng mã **UTF-8** cho tất cả ngôn ngữ bao gồm các ngôn ngữ tiếng latin, chữ Hán – Nôm và các ngôn ngữ đọc từ phải sang trái (Right to Left – RTL) như tiếng Ả-Rập chẳng hạn.
  - Thuộc tính **name**  
@@ -173,10 +173,10 @@
           - **application-name**: Tên ứng dụng đại diện của tài liệu web. 
           - **generator**: Khai báo tên ứng dụng tạo ra tài liệu. 
 
-<id="V">
+<a name="5"></a>
 #V.Các thẻ định dạng chữ viết và văn bản.
 
-<id="V.1">
+<a name="5.1"></a>
 ##1. Tiêu đề và đoạn văn bản 
  - Tiêu đề. 
      ```
@@ -193,7 +193,7 @@
 <img src="http://st1.streampow.net/tu-hoc-html-css-javascript/bai-hoc/html-the-co-ban.jpg"> 
  - Còn đoạn văn bản thì nó sẽ được khai báo bằng cặp thẻ `<p> </p>`. Các văn bản nằm trong cặp thẻ này sẽ được hiểu là một đoạn văn bản, mỗi đoạn văn bản sẽ được xuống dòng và cách nhau với tỷ lệ nhất định. 
 
-<id="V.2">
+<a name="5.2"></a>
 ##2. Các thẻ định dạng chữ viết 
  - `<strong>`: In đậm chữ viết. 
  - `<i>`: In nghiêng chứ viết. 
@@ -204,7 +204,7 @@
  - `<hr>`: Thước kẻ ngang trên tài liệu. 
  - `<mark>`: Tô sáng chữ viết. 
 
-<id="V.3"> 
+<a name="5.3"></a>
 ##3. Thẻ trích dẫn 
  - Thẻ trích dẫn được quy định là `<quote>` và tên tác giả trích dẫn được quy định là `<cite>`.  
  - Lưu ý rằng thẻ `<cite>` thường chỉ nên dùng đặt trong thẻ `<quote>` thôi chứ dùng tùy tiện nó lại mất hay. Và mặc định thì các trình duyệt sẽ tự quy định nội dung nằm trong thẻ `<cite>` sẽ được in nghiêng, còn thẻ `<quote>` thì không có gì cả nhưng sau này bạn làm tới phần CSS rồi thì có thể tự thêm tí “phong cách” cho thẻ `quote` đẹp hơn. 
@@ -232,10 +232,10 @@
      - Để canh lề, chúng ta sử dụng thuộc tính text-align với giá trị là left,center, right hoặc justify. 
      `<span style="text-align: center">Canh giữa văn bản</span>`
 
-<id="VI">
+<a name="6"></a>
 #VI. Tạo danh sách (List).
 
-<id="VI.1">
+<a name="6.1"></a>
 ##1. Kiểu sắp xếp (Ordered List): 
  -Là kiểu hiển thị một danh sách mà các mục con của nó được sắp xếp theo thứ tự bằng số hoặc chữ cái.
 ```
@@ -258,7 +258,7 @@
 
 <img src="https://acuong.com/wp-content/uploads/2017/01/1-FILEminimizer-4.jpg">
 
-<id="VI.2">
+<a name="6.2"></a>
 ##2. Kiểu không sắp xếp (Unordered List): 
  -Là kiểu hiển thị danh sách mà các mục con của nó sẽ không được sắp xếp theo thứ tự mà chỉ được đánh dấu bằng một ký tự đặc trưng.
 ```
@@ -278,7 +278,7 @@
   <li>Mục con 5</li>
 </ul> 
 
-<id="VI.3">
+<a name="6.3"></a>
 ##3. Kiểu mô tả (Description List):
 - Là kiểu hiển thị danh sách mà các mục con của nó sẽ không được đánh dấu thứ tự, nhưng sẽ có kèm theo một đoạn miêu tả.
 ```
@@ -292,10 +292,10 @@
   <dd>Mục 1.1</dd>
 </dl>
 
-<id="VII">
+<a name="7"></a>
 #VII. Tạo liên kết và neo. 
 
-<id="VII.1">
+<a name="7.1"></a>
 ##1. Tạo liên kết
  - Để tạo ra các đường liên kết trong HTML ta sẽ sử dụng cặp thẻ `<a> </a>` chứa các tham số như sau:
  ```
@@ -308,7 +308,7 @@
      - **title**: Tiêu đề của liên kết, tiêu đề sẽ hiển thị như một thông tin thêm khi rê chuột vào liên kết.
      - **target**: Xác định nơi mở tài liệu, nó có các giá trị như `_blank` (mở tài liệu trên cửa sổ mới), `_self` (mở tài liệu trên cửa sổ hiện tại, nếu bạn không khai báo thuộc tính target thì nó sẽ sử dụng giá trị này làm mặc định),  `_top` (mở tài liệu trong nội dung trang hiện tại), `_parent` (mở tài liệu trên khung trình duyệt mẹ của nó).
 
-<id="VII.2">
+<a name="7.2"></a>
 ##2. Liên kết neo
  - Một liên kết neo sẽ có hai phần:
      - Khu vực được neo, được khai báo bằng thẻ bất kỳ với thuộc tính id 
@@ -317,5 +317,5 @@
      ví dụ: `<a href="#11">xem nội dung</a>`.
 
 ---
-#Hoàn thành.
+#Hoàn thành Task 3-4
 ---
