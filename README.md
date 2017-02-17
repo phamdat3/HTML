@@ -111,7 +111,7 @@
 
       </p> 
       ```
-      <img src="1">
+      <img src="http://imageshack.com/a/img923/5615/PJ8a9P.png">
 
  - Giải thích thêm: 
      - Thẻ `<h1>` (viết tắt của chữ Heading level 1) là cặp thẻ để xác định một tiêu đề trong văn bản. Tiêu đề sẽ được in đậm, có size chữ lớn hơn và được ngăn cách với các đoạn văn bản khác (có margin). Ngoài thẻ `<h1>` thì còn có các thẻ **heading** với thứ bậc thấp hơn như `<h2>`, `<h3>`,`<h4>`, `<h5>`, `<h6>`. Thẻ `<p>`(viết tắt của chữ Paragraph) là cặp thẻ xác định một đoạn văn bản. Mỗi đoạn văn bản đặt trong thẻ `<p>` sẽ được xem như là một dòng, mỗi dòng sẽ có những khoảng cách ngăn với nhau.  
@@ -216,39 +216,39 @@
  - <hr>Thước kẻ ngang trên tài liệu.</hr>  
  - <mark>Tô sáng chữ viết.</mark>  
  ```
-<img src="2">  
+<img src="http://imageshack.com/a/img923/1590/oZjBkI.png">  
 <a name="5.3"></a>
 ##3. Thẻ trích dẫn 
  - Thẻ trích dẫn được quy định là `<quote>` và tên tác giả trích dẫn được quy định là `<cite>`.  
  - Lưu ý rằng thẻ `<cite>` thường chỉ nên dùng đặt trong thẻ `<quote>` thôi chứ dùng tùy tiện nó lại mất hay. Và mặc định thì các trình duyệt sẽ tự quy định nội dung nằm trong thẻ `<cite>` sẽ được in nghiêng.
 
-  <img src="3">
+  <img src="http://imageshack.com/a/img923/189/DMJMGN.png">
 
  - Thẻ định dạng sẵn. 
      - Trong HTML hiện tại nó có một thẻ được gọi là thẻ định dạng sẵn (preformatted), thẻ này sẽ được viết là `<pre> </pre>`. Sở dĩ nó được gọi là thẻ định dạng sẵn vì mặc định trình duyệt đã tự động định dạng cho các nội dung nằm bên trong thẻ đó như kích thước chữ, khoảng cách, kiểu chữ.
      - Thẻ `<pre> </pre>` này thường được dùng để đăng một câu đối thoại hoặc in một đoạn mã để cho dễ phân biệt với các văn bản thông thường.
 
-     <img src="4">
+     <img src="http://imageshack.com/a/img922/7673/Nit8K9.png">
 
  - Thuộc tính **style** để định dạng chữ viết.
      - Màu chữ. 
          Để thiết lập màu chữ, bạn có thể sử dụng thuộc tính **color**. Giá trị của nó là tên màu trong tiếng Anh hoặc mã màu HEX. 
          `<span style="color: red">chữ màu đỏ</span>` 
 
-         <img src="5">
+         <img src="http://imageshack.com/a/img922/7673/Nit8K9.png">
 
      - Màu nền. 
          - Màu nền có cách thiết lập giống hệt màu chữ, tức là bạn có thể dùng giá trị là tên màu trong tiếng Anh hoặc mã màu HEX. Tên thuộc tính của màu nền là 
          **background-color**. 
          `<span style="color: white; background-color: red">Chữ có nền màu đỏ và màu chữ là trắng</span>` 
 
-         <img src="6">
+         <img src="http://imageshack.com/a/img924/876/FONeO4.png">
 
      - Kích thước chữ. 
          - Kích thước chữ bạn có thể sử dụng thuộc tính font-size và giá trị là số kèm đơn vị. Bạn có thể sử dụng đơn vị px, %, pt hoặc em tùy thích, đơn giản nhất là dùng px. 
          `<span style="font-size: 40px">Chữ có kích thước 40px</span>`
 
-         <img src="7">
+         <img src="http://imageshack.com/a/img924/607/XKUiTW.png">
 
      - Font chữ. 
          - Nếu bạn có nhu cầu sử dụng font chữ khác so với font chữ mặc định thì hãy dùng thuộc tính font-family với giá trị là tên font chữ có trên máy tính. Một số tên font chữ phổ biến nhất là Arial, Helvetica, Time New Roman, Verdana.  
@@ -256,7 +256,7 @@
          - Ngoài ra bạn có thể thêm font chữ dự phòng bằng cách khai báo nhiều tên font chữ khác nhau được ngăn cách bởi dấu phẩy. 
            `<span style="font-family: Helvetica, Arial">Font chữ Arial</span>`
 
-           <img src="8">
+           <img src="http://imageshack.com/a/img924/6075/I2JdmK.png">
 
          - Có nghĩa là nếu máy người đọc không có font chữ Helvetica thì nó sẽ sử dụng font chữ Arial. 
  - Căn lề văn bản. 
